@@ -1,6 +1,8 @@
 # Asthma_ShiftWork_UKB
 Code to run the analysis for the paper "Night Shift Work Increases the Risk of Asthma"
 
+R version 3.6.2 was used to analyse data. R packages used include; flextable (0.5.6),  lubridate (1.7.4), magrittr (1.5), officer (0.3.6), patchwork (1.0.0), RColorBrewer (1.1-2), tidyverse (1.3.0), ukbtools (0.11.0).
+
 ## load_data.R
 
 This code is sourced by a few of the other scripts. Loads the data from the ukb_merged.RData (output from ADD FILE). Also loads in Data/shrinemedicationlist.csv and Data/occupation_asthmarisk_v2.csv and adds this data to the biobank data frame.
